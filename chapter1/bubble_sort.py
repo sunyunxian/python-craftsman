@@ -1,3 +1,4 @@
+# encoding=utf-8
 '''
 1. 变量名字变成了可读性的有意义的名字，而不是 i，j，k
 2. 增加了有意义的临时变量：current next_ should_swap
