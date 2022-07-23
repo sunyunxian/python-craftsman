@@ -103,5 +103,8 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# add
+# add idea
 .idea/
+
+# vscode
+.vscode/
