@@ -38,11 +38,15 @@ if __name__ == '__main__':
     max_number = 1000
 
     spend_time = timeit(
-        setup='from __main__ import gen_even_v1', stmt=f'gen_even_v1({max_number})', number=100000
+        setup='from __main__ import gen_even_v1',
+        stmt=f'gen_even_v1({max_number})',
+        number=100000,
     )
     print(spend_time)
     spend_time = timeit(
-        setup='from __main__ import gen_even_v2', stmt=f'gen_even_v2({max_number})', number=100000
+        setup='from __main__ import gen_even_v2',
+        stmt=f'gen_even_v2({max_number})',
+        number=100000,
     )
     print(spend_time)
 
